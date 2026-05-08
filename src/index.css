@@ -1,10 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* Safe Global Background to prevent white flashes */
+/* Keep your custom background fix below it */
 html, body {
-  background-color: #020617;
+  background-color: #0a0a0a;
   margin: 0;
   padding: 0;
 }
