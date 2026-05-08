@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Safe Global Background to prevent white flashes */
+html, body {
+  background-color: #020617;
+  margin: 0;
+  padding: 0;
+}
